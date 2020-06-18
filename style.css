@@ -20,7 +20,7 @@ body {
 header, div:not(.synopsis) {
     margin: 3vh 0;
     padding: 3vh 3vw;
-    width: 45vw;
+    width: 40vw;
     background-color: white;
     color: rgb(127, 127, 127);
     text-align: center;
