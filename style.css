@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, div:not(.synopsis) {
+    margin: 3vh 0;
+    padding: 3vh 3vw;
+    width: 45vw;
+    background-color: white;
+    color: rgb(127, 127, 127);
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+header {
+    margin-top: 3vh;
+}
+.movies {
+    margin-bottom: 3vh;
+}
+
+/*text*/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(221, 85, 85);
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin: 2vh 0;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2vh 0;
+    font-size: 1.2;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    text-align: justify;
+    margin: 2vh 0;
+    line-height: 1.6em;
+}
+strong {
+    font-weight: 700;
+}
+
+/*text HEADER*/
+header img {
+    width: 10vw;
+    border-radius: 10vw;
+    border: 0.2em solid rgb(221, 221, 221);
+}
+header p:last-of-type{
+    text-align: center;
+    margin-bottom: 1.5vh;
+    padding-top: 2vh;
+}
+header p a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(221, 85, 85);
+    padding: 1.5vh 1vw;
+    border-radius: 0.3em;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.social ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+}
+.social li {
+    font-size: 0.9em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 1.5em;
+}
+i {/*ICONS size*/
+    font-size: 2.2em;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+
+/*MOVIES*/
+
+/* span ???*/
+.movies h2 {
+    margin: 6vh 0;
+}
+.movies h2 span {
+    background-color: rgb(212, 212, 212);
+}
+
+.movies img {
+    width: 100px;
+}
+.movies {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+article {
+    padding: 3vh 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.synopsis {
+    padding-left: 5vh;
+}
+.movies h2 {
+    margin: 6vh 0;
+}
